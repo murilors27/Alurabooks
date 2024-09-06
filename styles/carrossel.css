@@ -1,3 +1,8 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -48,5 +53,8 @@
 }
 
 @media screen and (min-width: 1728px) {
-
+    
+    .carrossel__titulo {
+        font-size: 32px;
+    }
 }

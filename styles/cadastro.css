@@ -61,3 +61,14 @@
         height: 10%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .cadastro {
+        gap: 2rem;
+        padding: 3rem 30rem;
+    }
+    
+    .cadastro__email {
+        width: 35%;
+    }
+}

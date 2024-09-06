@@ -136,4 +136,8 @@
         color: var(--preto);
         display: block;
     }
+
+    .lista-menu:hover {
+        background-color: var(--azul-degrade);
+    }
 }
