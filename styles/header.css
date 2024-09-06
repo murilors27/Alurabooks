@@ -69,6 +69,10 @@
     display: none;
 }
 
+.cabecalho__link {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo-negrito {
         font-family: var(--fonte-secundaria);
@@ -118,5 +122,18 @@
 
     .opcoes__botao {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+    }
+    
+    .cabecalho__link {
+        text-decoration: none;
+        color: var(--preto);
+        display: block;
     }
 }
