@@ -135,9 +135,6 @@
         text-decoration: none;
         color: var(--preto);
         display: block;
-    }
-
-    .lista-menu:hover {
-        background-color: var(--azul-degrade);
+        font-weight: 700;
     }
 }
